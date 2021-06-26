@@ -11,8 +11,8 @@
     "url": "https://github.com/FnrDev/weather"
 },
   "keywords": ["weather", "weather api", "api", "weather data"],
-  "author": "",
-  "license": "ISC",
+  "author": "FnrDev",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
     "colors": "^1.4.0"
