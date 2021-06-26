@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://registry.npmjs.org/weather-api-data"
+    "url": "https://github.com/FnrDev/weather"
 },
   "keywords": ["weather", "weather api", "api", "weather data"],
   "author": "",
