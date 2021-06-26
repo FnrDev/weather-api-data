@@ -16,7 +16,7 @@ npm install weather-api-data
 - `loction(country_name)` - Get a weather in country
 
 # Examples
-### (Using await)
+### Using await
 ```js
 const weather = require('weather-api-data');
 
@@ -28,7 +28,7 @@ async function getWeather() {
 getWeather();
 ``` 
 
-### (Using .then function)
+### Using .then function
 
 ```js
 const weather = require('./index.js')
