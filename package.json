@@ -1,6 +1,6 @@
 {
   "name": "weather-api-data",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "NPM package that gets information about weather",
   "main": "index.js",
   "scripts": {
