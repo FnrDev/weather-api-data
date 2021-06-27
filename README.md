@@ -23,8 +23,11 @@ const weather = require('weather-api-data');
 async function getWeather() {
     const data = await weather.loction('manama');
     console.log(data);
-	//output
-	{
+}
+getWeather();
+
+output
+{
   location: {
     name: 'Manama',
     region: 'Al Manamah',
@@ -65,9 +68,6 @@ async function getWeather() {
     gust_kph: 36.4
   }
 }
-}
-
-getWeather();
 ``` 
 
 ### Using .then function
