@@ -31,7 +31,7 @@ getWeather();
 ### Using .then function
 
 ```js
-const weather = require('weather-api-data')
+const weather = require('weather-api-data');
 
 weather.loction('manama').then(weather => console.log(weather));
 ```
