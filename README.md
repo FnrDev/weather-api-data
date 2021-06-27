@@ -36,7 +36,7 @@ weather.loction('manama').then(weather => console.log(weather));
 
 ### Output
 
-```json
+```js
 {
   location: {
     name: 'Manama',
