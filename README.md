@@ -32,6 +32,5 @@ getWeather();
 
 ```js
 const weather = require('weather-api-data');
-
 weather.loction('manama').then(weather => console.log(weather));
 ```
