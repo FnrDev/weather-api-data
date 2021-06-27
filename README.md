@@ -25,8 +25,18 @@ async function getWeather() {
     console.log(data);
 }
 getWeather();
+``` 
 
-output:
+### Using .then function
+
+```js
+const weather = require('weather-api-data');
+weather.loction('manama').then(weather => console.log(weather));
+```
+
+### Output
+
+```json
 {
   location: {
     name: 'Manama',
@@ -68,11 +78,4 @@ output:
     gust_kph: 36.4
   }
 }
-``` 
-
-### Using .then function
-
-```js
-const weather = require('weather-api-data');
-weather.loction('manama').then(weather => console.log(weather));
 ```
