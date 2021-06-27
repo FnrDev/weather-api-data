@@ -24,7 +24,6 @@ async function getWeather() {
     const data = await weather.loction('manama');
     console.log(data);
 	//output
-	//
 	{
   location: {
     name: 'Manama',
@@ -66,7 +65,6 @@ async function getWeather() {
     gust_kph: 36.4
   }
 }
-	//
 }
 
 getWeather();
