@@ -26,7 +26,7 @@ async function getWeather() {
 }
 getWeather();
 
-output
+output:
 {
   location: {
     name: 'Manama',
