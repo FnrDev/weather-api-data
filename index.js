@@ -14,4 +14,20 @@ async function loction(country) {
     }
 }
 
+/**
+ * NPM package that gets information about weather
+ * @example
+ * ```js
+ * const weather = require('weather-api-data');
+ *  async function getWeather() {
+    const data = await weather.loction('manama');
+    console.log(data);
+}
+getWeather();
+ * 
+ * ```
+ * @link {@link https://npmjs.com/package/weather-api-data | NPM Link}
+ * 
+ */
+
 module.exports.loction = loction;
